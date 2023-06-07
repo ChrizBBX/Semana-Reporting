@@ -1,0 +1,7 @@
+servidor: TerminalGRAND.mssql.somee.com
+usuario: terminal_SQLLogin_1
+contraseña: ee3ia8wdib
+
+Conexion string:
+
+Data Source=TerminalGRAND.mssql.somee.com;Initial Catalog=TerminalGRAND
