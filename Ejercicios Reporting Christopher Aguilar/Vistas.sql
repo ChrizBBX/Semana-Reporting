@@ -1,4 +1,4 @@
-SELECT * FROM VW_Empleados_List_Christopher
+SELECT * FROM VW_Departamentos_List_Christopher
 
 
 /*Vista Clientes*/
@@ -31,3 +31,13 @@ ON empe.muni_Id = muni.muni_Id INNER JOIN [gral].[tbDepartamentos] depa
 ON muni.depa_Id = depa.depa_Id INNER JOIN [term].[tbSucursales] sucu 
 ON empe.sucu_Id = sucu.sucu_Id INNER JOIN [term].[tbCompanias] comp
 ON sucu.comp_Id = comp.comp_Id
+
+
+/*Vista Departamentos y municipios*/
+GO
+CREATE OR ALTER VIEW VW_Departamentos_List_Christopher
+AS
+SELECT  depa.depa_Id, depa.depa_Nombre, 
+muni.muni_Id, muni.muni_Nombre
+FROM [gral].[tbDepartamentos] depa INNER JOIN [gral].[tbMunicipios] muni 
+ON depa.depa_Id = muni.depa_Id
