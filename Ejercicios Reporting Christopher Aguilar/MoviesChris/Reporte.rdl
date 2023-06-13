@@ -6,10 +6,10 @@
     <DataSource Name="DataSourceMoviesBD">
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=DESKTOP-0N2TA4E\SQLEXPRESS;Initial Catalog=MoviesChris</ConnectString>
+        <ConnectString>Data Source=DESKTOP-5RUMQNH\SQLEXPRESS;Initial Catalog=MoviesChris</ConnectString>
       </ConnectionProperties>
       <rd:SecurityType>DataBase</rd:SecurityType>
-      <rd:DataSourceID>4057b9a6-0be2-4c63-a163-240569e89291</rd:DataSourceID>
+      <rd:DataSourceID>abb7e530-08de-4345-8e32-89ed066db961</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
@@ -101,9 +101,9 @@
             <Value>=First(Fields!movi_Image.Value, "DataSetMovieById")</Value>
             <Sizing>FitProportional</Sizing>
             <Top>136.7987mm</Top>
-            <Left>92.09323mm</Left>
+            <Left>165.11824mm</Left>
             <Height>174.20618mm</Height>
-            <Width>232.14083mm</Width>
+            <Width>159.11582mm</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
